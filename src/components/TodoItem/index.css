@@ -1,0 +1,19 @@
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-container {
+  display: flex;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #ff0b37;
+  padding: 10px;
+  border-radius: 7px;
+ 
+  margin-left: 10px;
+}
