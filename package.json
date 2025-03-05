@@ -12,7 +12,8 @@
     "@testing-library/user-event": "12.6.2",
     "chalk": "4.1.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "uuid": "9"
   },
   "devDependencies": {
     "eslint-config-airbnb": "18.2.1",
@@ -25,8 +26,8 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
